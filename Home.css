@@ -1,0 +1,280 @@
+body{
+    background-color: #a6f6f1;
+    font-family: montserrat;
+}
+
+.row{
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 20px;
+    padding: 3px 20px;
+    overflow: hidden;
+    position: sticky;
+
+border-radius: 40px;
+  box-shadow: 3px 3px 20px #ff3352;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033,#d74177);	
+  background-size: 400% 400%;
+	animation: grad 15s ease infinite;
+}
+
+
+@keyframes grad {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  .nav-item{
+      font-family: montserrat;
+      font-size: 18px;
+      margin-top: 6px;
+  }
+  
+  li a:hover {
+      color: white;
+
+      -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+transition-duration: 0.3s;
+  }
+  .logo{
+      font-size: 38px;
+      padding-right: 0%;
+  }
+  .logo {
+    padding-right: 0%;
+  }
+  .logo-link{
+      padding-right: 2px;
+      padding-top: 6px;
+  }
+  .brand-name{
+      padding-left: 0%;
+  }
+  .icon-tray{
+    text-align: right;
+    color: white;
+    margin-top: 20px ;
+  }
+  .icon{
+    padding: 3px;
+    font-size: 16px;
+  }
+  .icon:hover{
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  transition-duration: 0.3s;
+  }
+  /* ------------------------------------------------------ */
+.img-text{
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  color: white;
+  font-family: montserrat;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 1.5;
+  text-shadow: black 2px 2px;
+  text-align: left;
+}
+  .header-img{
+    width: 75%;
+      height: 586px;
+      border-radius: 40px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+box-shadow:  10px 10px 5px grey;
+  }
+
+  .full-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+  }
+
+  .carousel-control-next-icon{
+background-image: url(./img/arrow-angle-pointing-to-right.svg);
+  }
+  .carousel-control-prev-icon{
+    background-image: url(./img/arrow-angle-pointing-to-right.svg);
+
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  }
+
+  .sample{
+      font-family: montserrat;
+      margin: auto;
+      background-color: white;
+      color: black;
+      box-shadow:  5px 5px 5px black;
+  }
+  .sample:hover{
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  transition-duration: 0.3s;
+    
+
+  }
+  .sample-btn{
+      text-align: center;
+      position: relative;
+      bottom: 130px ;
+  }
+
+  /* -------------------------------------- */
+  .border-line{
+    text-align: center;
+  }
+  
+  .border{
+    position: relative;
+    top: 22px;
+    font-size: 25px;
+    border: 0px !important;
+  }
+
+  .challenge-row{
+    background-color: white;
+    padding: 7%;
+    
+  }
+  .circle{
+    border: 1px black;
+  }
+
+  .challenge-img-col{
+      /* text-align: center;   */
+  }
+  
+  .challenge-img{
+     width: 500px; 
+    border-radius: 20%;
+    
+  }
+  
+  .challange-img4{
+height: 400px;
+width: 500px; 
+    border-radius: 20%;
+    
+  }
+  .challange-img4:hover{
+    box-shadow: 0px 0px 15px 8px #34a59d ;
+
+  }
+
+
+  .challenge-img:hover{
+    box-shadow: 0px 0px 15px 8px #34a59d ;
+
+  }
+  .safety{
+    text-align: center;
+    padding-top: 4%;
+    color: #ce1212;
+    
+  }
+  .safety:hover{
+    -webkit-transform: scale(1.1); 
+      transform: scale(1.1); 
+    transition-duration: 0.3s;
+  }
+
+  
+  
+
+  
+  .question{
+    font-family: 'Merriweather', serif;    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  /* .challenge{
+    font-size: 30px;
+    background-image: linear-gradient(120deg,#a6f6f1 , rgb(68, 212, 200) ); 
+  background-repeat: no-repeat; 
+  background-size: 100% 0.2em; 
+  background-position: 0 100%; 
+  transition: background-size 0.25s ease-in;
+  }
+
+  .challenge:hover{
+    background-size: 100% 100%;
+  } */
+
+  hr {
+    border-style: dotted;
+    width: 30%;
+    margin: 15px auto 20px;
+  }
+
+  .solution{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  /* ---------------------------------------- */
+  .border-line-2{
+    position: relative;
+    text-align: center;
+    bottom: 38px;
+  }
+.offer-heading{
+  text-align: center;
+  padding: 3%;
+  font-family: merriweather;
+  font-weight: 500;
+  /* text-decoration: underline red; */
+  color:orange;
+}
+.offer-heading:hover{
+  -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  transition-duration: 0.3s;
+}
+  .offer-row{
+    padding: 0 7% 7%;
+  }
+.offer-col{
+  text-align: center;
+}
+  .offer-img{
+    width: 75%;
+    border-radius: 12%;
+  }
+
+  .offer-img:hover{
+    -webkit-transform: scale(1.03); 
+    transform: scale(1.03); 
+  transition-duration: 0.3s;
+  }
